@@ -11,7 +11,7 @@ function Dashboard() {
   return (
     <Container>
     <Row>
-      <Col sm={{size: 'auto', offset:1}}>
+      <Col lg={{size:'12', offset:1}} md={{size:'auto'}}>
         <h1 style={{ margin: 20 }}>DashBoard</h1>
       <ChartGroup />
       </Col>
@@ -26,7 +26,7 @@ function Dashboard() {
                     fontSize: '22px'
                 }}
             >
-                Test Artist Sales + Category
+                Test Artist Sales + Category 
 
         </Col>
     </Row>
