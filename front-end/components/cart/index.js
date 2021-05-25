@@ -76,7 +76,7 @@ function Cart() {
                     <h5 style={{ fontWeight: 100, color: "gray" }}>Total:</h5>
                     <h3>${appContext.cart.total.toFixed(2)}</h3>
                   </Badge>
-                  {router.pathname === "/restaurants" && (
+                  {router.pathname === "/artists/[id]" && (
                     <div
                       style={{
                         marginTop: 10,
