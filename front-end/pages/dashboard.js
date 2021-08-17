@@ -26,7 +26,7 @@ function Dashboard() {
                     fontSize: '22px'
                 }}
             >
-                Test Artist Sales + Category 
+                Test - Artist Sales + Category 
 
         </Col>
     </Row>
